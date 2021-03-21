@@ -1,0 +1,62 @@
+div {
+  background-color: rgb(200, 255, 0);
+  width: 200px;
+  height: 200px;
+}
+h1 {
+  margin: 0px;
+}
+body {
+  margin: 0px;
+}
+.middle-container {
+  height: 200px;
+  width: 200px;
+  border: 10px;
+  margin-left: 200px;
+  background-color: black;
+  position: relative;
+  top: -200px;
+}
+.bottom-container {
+  height: 200px;
+  width: 200px;
+  border: 10px;
+  margin-left: 400px;
+  background-color: green;
+  position: relative;
+  top: -400px;
+}
+p {
+  margin: 0px;
+}
+ .parent-container{
+   background-color: darkgrey;
+   width: 700px;
+   height: 700px;
+ }
+.first,
+.second,
+.third{
+  width: 200px;
+  height: 200px;
+}
+.first{
+  background-color: darkred;
+position: absolute;
+margin-bottom: 600px;
+
+}
+.second{
+  background-color: blue;
+  position: absolute;
+  margin-top: 200px;
+  margin-left:200px ;
+}
+.third{
+  background-color: purple;
+  position: absolute;
+  margin-left: 400px;
+  margin-top:400px;
+
+}
